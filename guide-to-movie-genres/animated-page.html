@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+             <meta charset="UTF-8">
+            <title>Movie Genres: Home Page</title>
+             <meta name="author" content="Jenny Okolo">
+
+             <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      
+        <header>
+            <h1>A Guide to Movie Genres</h1>
+            <p>Explore endless worlds, one genre at a time!</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="drama-page.html">Drama</a></li>
+                    <li><a href="action-page.html">Action</a></li>
+                    <li><a href="animated-page.html">Animated</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Animated</h2>
+                <p>The animated genre is one of the most diverse and imaginative in cinema, bringing stories to life through various animation techniques. 
+                Animated films appeal to all ages, with a mix of heartfelt storytelling, stunning visuals, and creative world-building.</p>
+                <img src="img/lion-king-image.avif" alt="Lion king movie">
+            </section>
+
+            <section>
+                <h2>Rate and review animated movies</h2>
+                <form action="success.html" method="post" name="contact">
+                    <fieldset>
+                    <label for="movietitle">Submit Movie Title:</label>
+                    <input id="movietitle" type="text">
+                    <br>
+                    <fieldset>
+                        <legend>Rating(out of 3 stars)</legend>
+                        <input type="radio" id="1star" name="rating" value="1">
+                        <label for="1star">1 Star</label>
+                        <input type="radio" id="2stars" name="rating" value="2">
+                        <label for="2stars">2 Stars</label>
+                        <input type="radio" id="3stars" name="rating" value="3">
+                        <label for="3stars">3 Stars</label>
+                    </fieldset>                    
+                   
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Leave a Review</legend>
+                        <label for="review">Review: </label>
+                        <textarea id="review" name="review"
+                        rows="10" cols="50"></textarea>
+                    </fieldset>
+                    <input type="submit" name="SubmitReview" id="SubmitReview"
+                        value="Submit Review">
+
+                </form>
+                
+            </section>
+        </main>
+
+        <footer>
+
+            <section>
+                <h3>Find Us on Social Media</h3>
+                <ul>
+                    <li><img src="img/twitter-icon.svg" alt="Twitter Icon" width="45" height="45"></li>
+                    <li><img src="img/faceboook-icon.svg" alt="Facebook Icon" width="50" height="50"></li>
+                    <li><img src="img/pinterest-icon.svg" alt="Pinterest Icon" width="45" height="45"></li>
+                    <li><img src="img/youtube-icon.svg" alt="Youtube Icon" width="45" height="45"></li>
+                </ul>
+            </section>
+            <br><br>
+            <p>This website was created for academic purposes only. &copy;2025</p>
+
+        </footer>
+    </body>
+</html>
