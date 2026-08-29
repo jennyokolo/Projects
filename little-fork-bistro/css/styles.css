@@ -1,0 +1,304 @@
+body {
+    font-family: "Fira Sana Condensed", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1288px;
+    margin: 0 auto;
+}
+
+.page {
+    width: 1288px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    padding: 22px 0;
+}
+
+.logo {
+    font-family: "Fira Sana Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5A3228;
+}
+
+.nav ul {
+    gap: 24px;
+}
+
+.nav a {
+    color: #D2865B;
+    font-weight: 600px;
+    margin: 0 auto;
+    width: 960px;
+    list-style: none;
+}
+
+.banner {
+    background-image: url(../img/lightbulb-background-image.png);
+    background-size: cover;
+    padding: 44px;
+    border-radius: 0;
+    color: #E5D098;
+}
+
+.banner h1 {
+    font-family: "Fira Sana Condensed", sans-serif;
+    font-size: 37px; 
+    margin-top: 143px;
+    margin-bottom:11px;
+    margin-left: 20px;
+    margin-right: 757px;
+}
+
+.banner p {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    width: 760px;
+    color: #ffffff;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+.banner a {
+    background-color: #D08153;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 0;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.about img{
+    width: 628px;
+    border-radius: 6px;
+    margin-bottom: 102px;
+    margin-top: -74px;
+}
+
+.about h2 {
+    font-family: "Merriweather", serif;
+    font-size: 36px;
+    color: #D08153;
+    margin-bottom: 16px;
+    margin-top: 74px;
+    border-bottom: dashed #D08153;
+    display: inline-block;
+}
+
+.about p {
+    font-family: "Merriweather", serif;
+    margin-bottom: 17px;
+}
+
+.featured h2 {
+    font-family: "Fira Sana Condensed", sans-serif;
+    font-size: 36px;
+    color: #D08153;
+    margin-bottom: 16px;
+    margin-top: 74px;
+    border-bottom: dashed #D08153;
+    display: inline-block;
+}
+
+.cards {
+   flex-wrap: wrap;
+   gap:32px;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid #D9D9D9;
+    padding: 22px;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.card img {
+    width: 254px;
+    display: inline-block;
+    border-radius: 0px;
+}
+
+.card h3 {
+    font-family: "Fira Sana Condensed", sans-serif;
+    color:#5A3228;
+    font-size: 22px;
+    margin: 12px 0 6px;
+}
+
+.card p {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+footer {
+    background-position: center;
+    background-color: #5A3228;
+    padding: 24px 0;
+}
+
+.footer-title {
+    font-family: "Fira Sana Condensed", sans-serif;
+    color: #E5D098;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 0 16px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 32px;
+    margin: 0 auto;
+    padding: 0 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-col {
+  width: 242px;
+}
+
+.footer-columns,
+.footer-col {
+    width: 242px;
+}
+
+.footer-col ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-col li {
+    font-family: "Merriweather", serif;
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    gap: 11px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.footer p {
+    font-family: "Merriweather", serif;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.reservation-banner {
+    background-image: url(../img/reservations-image.png);
+    background-size: cover;
+    padding: 44px;
+    border-radius: 0;
+    color: #E5D098;
+    margin: 20px;
+}
+
+.reservation-banner h1{
+    font-family: "Fira Sana Condensed", sans-serif;
+    margin-right: 915px;
+    margin-top: 125px;
+    margin-bottom: 11px;
+    margin-left: 44px;
+
+}
+
+.reservation-banner p {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    width: 760px;
+    color: #ffffff;
+    margin-right: 450px;
+    margin-bottom: 66px;
+
+}
+
+.notice {
+    background-color: #F3F4F6;
+    padding: 10px;
+    margin-bottom: 22;
+    font-size: 14px;
+}
+
+.reservation-section {
+    margin: 20px;
+}
+
+.reservation-form label {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    display: block;
+    color: #5A3228;
+}
+
+.reservation-form fieldset{
+    display: flex;
+   justify-content: left;    
+   gap: 18px; 
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.reservation-form .flex-container {
+    gap: 16px;
+}
+
+.reservation-flex {
+    align-items: flex-start;
+    gap: 32px;
+}
+
+
+.radio-group {
+    margin-bottom: 16px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.map-col {
+    width: 380px;
+}
+
+.map-col img {
+    max-width: 380px;
+    border-radius: 0;
+}
+
+.button {
+    font-family: "Fira Sans Condensed", sans-serif;
+    background-color: #D08153;
+    color: #FFFFFF;
+    padding: 12px 22px;
+    border-radius: 0;
+    border: none;
+    margin-top: 8px;
+}
