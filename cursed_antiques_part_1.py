@@ -36,8 +36,7 @@ print(cursed_antiques)
 
 print("All cursed antiques and their index in point form (part 1.3)") 
 
-# part 1.3 using loops (do not remove this line)
-# YOUR CODE BELOW
+
 for i, item in enumerate(cursed_antiques, start=1):
     print(f"-{i}: {item}")
-# part 1.4 and 1.5 debugging below
+
