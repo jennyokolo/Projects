@@ -1,6 +1,6 @@
 print("The Cursed Antique Shop Part 1")
 
-# Part 1.1 add (do not remove this line)
+
 cursed_antiques = [
     "Talisman",
     "Monkeys Paw",
@@ -18,24 +18,23 @@ cursed_antiques = [
 cursed_antiques.append("Demon Key")
 cursed_antiques.append("Horcrux")
 
-# End Part 1.1 (do not remove this line)
-print("After adding cursed antiques (part 1.1)") # (do not remove this line)
-print(cursed_antiques) # (do not remove this line)
+
+print("After adding cursed antiques (part 1.1)") 
+print(cursed_antiques) 
 
 
-# part 1.2 sorting and removing (do not remove this line)
-# YOUR CODE BELOW
+
 
 cursed_antiques.sort()
 for index in sorted([4,8], reverse=True):
     cursed_antiques.pop(index)
 
-# end part 1.2 (do not remove this line)
 
-print("After sorting and removing (part 1.2)") # (do not remove this line)
-print(cursed_antiques) # (do not remove this line)
 
-print("All cursed antiques and their index in point form (part 1.3)") # (do not remove this line)
+print("After sorting and removing (part 1.2)") 
+print(cursed_antiques) 
+
+print("All cursed antiques and their index in point form (part 1.3)") 
 
 # part 1.3 using loops (do not remove this line)
 # YOUR CODE BELOW
