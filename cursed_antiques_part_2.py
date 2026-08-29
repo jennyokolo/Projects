@@ -20,8 +20,7 @@ shopping_cart = [
 
 user_quit = False
 
-# DO NOT CHANGE THE CODE ABOVE HERE
-# YOUR CODE BELOW HERE
+
 while not user_quit:
     option = input(
         "What would you like to do?\n" 
